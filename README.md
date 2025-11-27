@@ -2,6 +2,8 @@
  A mini-project that intelligently scores and prioritizes tasks based on urgency, complexity, and impact.
 Built using Django (backend) and HTML/CSS/JS (frontend).
 
+🧠 Algorithm Explanation:
+
 The Smart Task Analyzer uses a weighted scoring algorithm designed to calculate the priority of a task based on three key factors: urgency, complexity, and impact. The primary goal is to provide a simple but meaningful numerical score that helps users quickly decide which tasks should be completed first. The formula was designed to reflect the real-world approach used in productivity systems like Eisenhower Matrix and project management tools like Jira and Asana.
 
 The final priority score is calculated as:
@@ -208,3 +210,4 @@ If you want, I can also generate:
 ✅ A description for your resume or LinkedIn
 
 Just tell me "Give me short/long/resume description".
+
