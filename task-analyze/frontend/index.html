@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Smart Task Analyzer Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- SweetAlert2 for popup -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body>
+  <header>
+    <h1><i class="fa-solid fa-brain"></i> Smart Task Analyzer</h1>
+  </header>
+
+  <main class="dashboard">
+    <!-- Left Form Section -->
+    <section class="form-section">
+      <h2>Add New Task</h2>
+
+      <form id="taskForm">
+        <input type="text" id="title" placeholder="Task Title" required />
+        <textarea id="description" placeholder="Task Description" required></textarea>
+
+        <div class="row">
+          <input type="number" id="urgency" placeholder="Urgency (1–5)" required />
+          <input type="number" id="importance" placeholder="Importance (1–5)" required />
+        </div>
+
+        <input type="number" id="time_required" placeholder="Time Required (Hours)" required />
+        
+        <label class="label">Deadline:</label>
+        <input type="date" id="deadline" />
+
+        <button type="submit">Add Task</button>
+      </form>
+    </section>
+
+    <!-- Right Task Display -->
+    <section class="task-section">
+      <h2>Your Tasks</h2>
+      <div id="taskList" class="task-list"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
