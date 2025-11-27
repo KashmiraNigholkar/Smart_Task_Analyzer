@@ -203,11 +203,6 @@ Portfolio showcasing intelligent systems
 The Smart Task Analyzer acts like a lightweight AI-powered productivity assistant.
 It helps users work smarter, make informed decisions, and stay organized using structured logic rather than guesswork.
 
-If you want, I can also generate:
 
-✅ A shorter version (2–3 lines)
-✅ A longer professional version (500 words)
-✅ A description for your resume or LinkedIn
 
-Just tell me "Give me short/long/resume description".
 
